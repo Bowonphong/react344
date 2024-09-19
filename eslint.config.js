@@ -32,6 +32,12 @@ export default [
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
+        module.exports = {
+          images: {
+            domains: ['yourdomain.com'],
+          },
+        }
+        
       ],
     },
   },
