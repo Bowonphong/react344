@@ -6,14 +6,14 @@ export default function App() {
   const [selectedButtonImage, setSelectedButtonImage] = useState(1); 
 
   const images = [
-    "src/img/md.jpg",
-    "src/img/tee.jpeg"
+    "public/รูปภาพ/1.jpg",
+    "public/รูปภาพ/2.jpeg"
   ];
   
   const buttonImagesOptions = [
-    "src/img/tm.jpg",
-    "src/img/ft.jpeg",
-    "src/img/y.jpg"
+    "public/รูปภาพ/3.jpg",
+    "public/รูปภาพ/4.jpeg",
+    "public/รูปภาพ/5.jpg"
   ];
 
   const increaseLevel = () => {
@@ -40,7 +40,7 @@ export default function App() {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    backgroundImage: 'url("src/img/j.jpg")',
+    backgroundImage: 'url("public/รูปภาพ/6.jpg")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "100vh",
