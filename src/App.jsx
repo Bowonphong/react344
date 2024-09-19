@@ -6,14 +6,14 @@ export default function App() {
   const [selectedButtonImage, setSelectedButtonImage] = useState(1); 
 
   const images = [
-    "public/img/md.jpg",
-    "public/img/tee.jpeg"
+    "src/img/md.jpg",
+    "src/img/tee.jpeg"
   ];
   
   const buttonImagesOptions = [
-    "public/img/tm.jpg",
-    "public/img/ft.jpeg",
-    "public/img/y.jpg"
+    "src/img/tm.jpg",
+    "src/img/ft.jpeg",
+    "src/img/y.jpg"
   ];
 
   const increaseLevel = () => {
@@ -40,7 +40,7 @@ export default function App() {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    backgroundImage: 'url("public/img/j.jpg")',
+    backgroundImage: 'url("src/img/j.jpg")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "100vh",
